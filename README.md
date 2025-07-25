@@ -12,20 +12,25 @@
 
 ## 🏆 Competition Results
 
-| Metric | Score | Rank |
-|--------|-------|------|
-| **Public Leaderboard** | TBD | TBD |
-| **Private Leaderboard** | TBD | TBD |
-| **Cross-Validation RMSE** | $34,328 | - |
-| **R² Score** | 0.8132 | - |
+| Metric | Score | Context |
+|--------|-------|---------|
+| **Public Leaderboard RMSE** | 0.15015 | Top ~55% (baseline model) |
+| **Cross-Validation RMSE** | $34,328 | Internal validation |
+| **R² Score** | 0.8132 | 81.32% variance explained |
+| **Features Used** | 36 | Numerical features only |
 
-*Scores will be updated after Kaggle submission*
-
+*Current score represents a baseline Linear Regression model. Advanced models typically achieve 0.11-0.12 (top 10%)*
 ---
 
 ## 📋 Project Overview
 
-This project tackles the **House Prices: Advanced Regression Techniques** Kaggle competition, where the goal is to predict residential home prices in Ames, Iowa. The dataset contains 79 explanatory variables describing various aspects of residential homes, from basement conditions to roof materials.
+This project tackles the **House Prices: Advanced Regression Techniques** Kaggle competition, where the goal is to predict residential home prices in Ames, Iowa. The dataset contains 79 explanatory variables describing various aspects of residential homes.
+
+### Competition Benchmarks
+- **Top 1%**: ~0.10-0.11 RMSE
+- **Top 5%**: ~0.11-0.12 RMSE  
+- **Top 10%**: ~0.12-0.13 RMSE
+- **My Score**: 0.15015 (Baseline - plenty of room for improvement!)
 
 ### What I Accomplished
 
@@ -98,43 +103,6 @@ This project tackles the **House Prices: Advanced Regression Techniques** Kaggle
 - Cross-validation RMSE (primary metric)
 - Training time and interpretability
 - Overfitting detection (training vs. CV performance)
-
----
-
-## 📁 Repository Structure
-
-```
-house-prices-advanced-regression-techniques/
-├── 📁 notebooks/                          # Jupyter notebooks
-│   ├── house_prices_eda.ipynb            # Exploratory Data Analysis
-│   ├── house_prices_eda_executed.ipynb   # EDA with outputs
-│   └── 03_modeling.ipynb                 # Comprehensive modeling workflow
-│
-├── 📁 src/                               # Python source code
-│   ├── baseline_model.py                 # Main baseline model implementation
-│   ├── explore_data.py                   # Basic data exploration script
-│   ├── run_summary.py                    # EDA summary statistics
-│   ├── show_correlations.py              # Feature correlation analysis
-│   └── show_outliers.py                  # Outlier detection utilities
-│
-├── 📁 visualizations/                    # Generated plots and charts
-│   └── eda_main_plots.png               # Main EDA visualization
-│
-├── 📁 data/                              # Data documentation
-│   └── README.md                         # Comprehensive data guide
-│
-├── 📊 Dataset Files                      # Competition data (root level)
-│   ├── train.csv                         # Training data (1,460 × 81)
-│   ├── test.csv                          # Test data (1,459 × 80)
-│   ├── sample_submission.csv             # Submission template
-│   └── data_description.txt              # Feature descriptions
-│
-├── 📋 Project Files
-│   ├── requirements.txt                  # Python dependencies
-│   ├── submission.csv                    # Generated submission file
-│   ├── final_submission.csv              # Latest submission
-│   └── README.md                         # This file
-```
 
 ---
 
@@ -239,11 +207,11 @@ python src/run_summary.py     # EDA summary statistics
 
 ## 📞 Contact
 
-**Your Name** - [your.email@example.com](mailto:your.email@example.com)
+**My Name** - [ary2001@gmail.com](mailto:ary2001@gmail.com)
 
-**Project Link**: [https://github.com/yourusername/house-prices-advanced-regression-techniques](https://github.com/yourusername/house-prices-advanced-regression-techniques)
+**Project Link**: [https://github.com/Aryan2001ada/kaggle-house-prices](https://github.com/Aryan2001ada/kaggle-house-prices)
 
-**Kaggle Profile**: [https://www.kaggle.com/yourusername](https://www.kaggle.com/yourusername)
+**Kaggle Profile**: [https://www.kaggle.com/aryankhurananaidu](https://www.kaggle.com/aryankhurananaidu)
 
 ---
 
