@@ -215,19 +215,6 @@ python src/run_summary.py     # EDA summary statistics
 
 ---
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-## 🙏 Acknowledgments
-
-- **Kaggle** for hosting the competition and providing the dataset
-- **Dean De Cock** for compiling the Ames Housing dataset
-- **Iowa State University** for the original data source
-- **Scikit-learn community** for excellent machine learning tools
-- **Jupyter Project** for the interactive development environment
 
 ---
 
